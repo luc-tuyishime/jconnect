@@ -62,6 +62,11 @@ html {
     width: device-width
 }
 
+.logo-resize{
+  font-size: 20px;
+  height: 5px !important;
+}
+
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
     display: block
 }
@@ -7521,7 +7526,7 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
 }
 
 .m-0 {
-    margin: 0 !important
+    margin-top: 0 !important
 }
 
 .mt-0, .my-0 {
@@ -21348,7 +21353,8 @@ a.text-dark:focus, a.text-dark:hover {
 }
 
 .mtm-30 {
-    margin-top: -30px !important
+    margin-top: -30px !important;
+    margin-bottom: 20px !important;
 }
 
 .mtm-32 {
